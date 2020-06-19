@@ -9,7 +9,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     line-height: 1em;
-    text-align: center;
+    text-align: left;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -18,9 +18,12 @@ p {
     text-align: left;
 }
 img:first-child {
-    width: 200px;
+    width: 400px;
     float: left;
     margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+    shape-outside: circle(60%);
 }
 img:last-of-type {
     width: 200px;
